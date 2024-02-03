@@ -5,11 +5,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-/* main{
+main{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+    gap: 238px;
+}
 .slogan-container{
     background-color: var(--light-green);
     width: 544px;
@@ -43,6 +44,43 @@ body{
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-10px);
     }
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 89px;
+    padding-bottom: 20px;
+}
+.input-container{
+    display: grid;
+    gap: 30px;
+}
+input{
+    border-radius: 25px;
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+    outline: 0;
+    padding-left: 35px;
+    font-family: var(--body-font);
+}
+::placeholder {
+    color: var(--white);
+}
+button{
+    width: 335px;
+    height: 69px;
+    border-radius: 25px;
+    font-family: var(--title-font);
+    color: var(--bg-color);
+    font-size: 32px;
+    background-color: var(--main-green);
+}
+button:hover{
+    
 }
