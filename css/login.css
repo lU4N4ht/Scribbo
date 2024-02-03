@@ -44,7 +44,7 @@ main{
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-15px);
     }
 }
 .login-container{
@@ -77,10 +77,16 @@ button{
     height: 69px;
     border-radius: 25px;
     font-family: var(--title-font);
-    color: var(--bg-color);
+    color: var(--main-green);
     font-size: 32px;
-    background-color: var(--main-green);
+    background-color: transparent;
+    border: 2px solid var(--main-green);
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);  
+    cursor: pointer;
+    font-weight: 600;
 }
 button:hover{
-    
+    color: var(--bg-color);
+    background-color: var(--main-green);
+    transform: translateY(-0.125em);
 }
