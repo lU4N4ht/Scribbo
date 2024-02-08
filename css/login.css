@@ -21,7 +21,6 @@ main{
     padding-top: 63px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .container-header{
     display: grid;
