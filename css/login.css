@@ -4,7 +4,11 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
+a{ 
+    color: inherit; 
+} 
 main{
     display: flex;
     justify-content: center;
@@ -70,4 +74,22 @@ input{
 }
 ::placeholder {
     color: var(--white);
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.button-container p{
+    font-family: var(--body-font);
+    color: var(--white);
+}
+.button-container a{
+    font-family: var(--title-font);
+    font-weight: 600;
+}
+.button-container a:hover{
+    color: var(--main-green);
 }
