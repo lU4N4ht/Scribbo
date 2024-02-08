@@ -1,7 +1,10 @@
 body{
-    background-color: var(--bg-color);
-    height: 100vh;
-    display: flex;
+    background-color: var(--dark-green);
+    height: 90vh;
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 /* a{
@@ -21,10 +24,11 @@ body{
 /* 
 } */
 
-.gif{
-    background-size: cover;
-    background-image: url(https://i.pinimg.com/originals/96/f6/53/96f65338d84640522791a285d0d2570e.gif);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+
+.text-container{
+    display: grid;
+    border-radius: 25px;
+    background-color: var(--white);
+    height: 600px;
+    width: 700px;
 }

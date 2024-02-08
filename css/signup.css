@@ -71,3 +71,9 @@ input{
 ::placeholder {
     color: var(--white);
 }
+.title-container{
+    font-family: var(--title-font);
+    font-size: 40px;
+    color: var(--main-green);
+    font-weight: 600;
+}
