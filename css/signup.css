@@ -4,11 +4,7 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
 }
-a{ 
-    color: inherit; 
-} 
 main{
     display: flex;
     justify-content: center;
@@ -47,7 +43,7 @@ main{
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-15px);
+        transform: translateY(-10px);
     }
 }
 .login-container{
@@ -75,21 +71,9 @@ input{
 ::placeholder {
     color: var(--white);
 }
-.button-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-}
-.button-container p{
-    font-family: var(--body-font);
-    color: var(--white);
-}
-.button-container a{
+.title-container{
     font-family: var(--title-font);
-    font-weight: 600;
-}
-.button-container a:hover{
+    font-size: 40px;
     color: var(--main-green);
+    font-weight: 600;
 }
