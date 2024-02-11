@@ -34,6 +34,7 @@ main{
     color: var(--dark-green);
     font-family: var(--title-font);
     font-size: 40px;
+    z-index: 1;
 }
 .image-container{
     display: flex;
@@ -47,7 +48,7 @@ main{
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-15px);
+        transform: translateY(-10px);
     }
 }
 .login-container{
