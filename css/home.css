@@ -7,10 +7,63 @@ body{
 nav{
     height: 100%;
     width: 10%;
+    padding-top: 64px;
+    display: grid;
+    justify-content: center;
+}
+nav .profile{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-image: url(../img/joao.png);
 }
 main{
     height: 94%;
     width: 87%;
     background-color: var(--white);
     border-radius: 25px;
+    padding: 50px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.welcome{
+    display: grid;
+}
+.message{
+    font-family: var(--body-font);
+    font-size: 40px;
+}
+.name{
+    font-family: var(--title-font);
+    font-weight: bold;
+    font-size: 36px;
+    color: #4DB265;
+}
+.input-info{
+    height: 50px;
+    width: 69%;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+input{
+    height: 50px;
+    width: 98%;
+    padding-left: 25px;
+    outline: 0;
+    background: none;
+   font-size: 20px;
+   padding-top: 5px;
+   border: none;
+}
+input::placeholder{
+    font-family: var(--body-font);
+    font-size: 20px;
+    color: var(--placeholder-color);
+    padding-top: 5px;
 }
