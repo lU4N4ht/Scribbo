@@ -1,0 +1,60 @@
+body{
+    background-color: var(--bg-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+main{
+    height: 94%;
+    width: 87%;
+    background-color: var(--white);
+    border-radius: 25px;
+    padding: 50px;
+    overflow: hidden;
+    
+}
+.profile-photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-side{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.profile-name{
+    font-size: 40px;
+    color: var(--main-green);
+    font-family: var(--title-font);
+    font-weight: 600;
+}
+.button-side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-info{
+    display: grid;
+    gap: 20px;
+}
+.profile-box{
+    display: grid;
+    gap: 10px;
+}
+.profile-title{
+    font-family: var(--body-font);
+    font-size: 24px;
+}
+input{
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: var(--body-font);
+}

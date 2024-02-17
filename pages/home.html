@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/root.css">
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <script src="../js/nav.js" defer></script>
     <title>Home</title>
 </head>
 <body>
@@ -18,15 +24,36 @@
     </nav>
     <main>
         <div class="head">
-            <div class="welcome">
-                <span class="message">Bem-vindo,</span>
-                <span class="name">Vitor</span>
+            <div class="profile-side">
+                <img src="../img/joao.png" alt="joao" class="profile-photo">
+                <span class="profile-name">Vitor de Jesus Amém</span>
             </div>
-            <div class="input-info">
-                <img src="../img/lupa.png" alt="pesquisar">
-                <input type="text" placeholder="Pesquisar...">
+
+            <div class="button-side">
+                <button class="update-button" id="update-button">Atualizar</button>
+                <button class="remove-button" id="remove-button">Remover</button>
             </div>
         </div>
+
+        <div class="profile-info">
+            <div class="profile-box">
+                <span class="profile-title">Nome de Usuario</span>
+                <input type="text">
+            </div>
+
+            <div class="profile-box">
+                <span class="profile-title">Email</span>
+                <input type="text">
+            </div>
+
+            <div class="profile-box">
+                <span class="profile-title">Senha</span>
+                <input type="text">
+            </div>
+            <button class="apply-button">Aplicar Alterações</button>
+        </div>
+
+        <button class="delete-button">Deletar Conta</button>
     </main>
 </body>
 </html>

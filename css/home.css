@@ -4,25 +4,15 @@ body{
     display: flex;
     align-items: center;
 }
-nav{
-    height: 100%;
-    width: 10%;
-    padding-top: 64px;
-    display: grid;
-    justify-content: center;
-}
-nav .profile{
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    background-image: url(../img/joao.png);
-}
 main{
     height: 94%;
     width: 87%;
     background-color: var(--white);
     border-radius: 25px;
     padding: 50px;
+    overflow: hidden;
+    display: grid;
+    justify-content: space-between;
 }
 .head{
     display: flex;

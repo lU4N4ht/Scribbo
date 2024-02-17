@@ -16,3 +16,54 @@
     background-color: var(--main-green);
     transform: translateY(-0.125em);
 }
+.update-button{
+    height: 40px;
+    width: 150px;
+    background-color: #000000;
+    font-family: var(--title-font);
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 20px;
+}
+.remove-button{
+    height: 40px;
+    width: 150px;
+    background-color: #E7E7E7;
+    font-family: var(--title-font);
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #000000;
+    border-radius: 20px;
+    border: none;
+}
+.apply-button{
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #000000;
+    font-size: 24px;
+    color: var(--white);
+    font-family: var(--title-font);
+    font-weight: 600;
+    cursor: pointer;
+}
+.delete-button{
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 24px;
+    color: var(--main-red);
+    font-family: var(--title-font);
+    font-weight: 600;
+    border: 3px solid var(--main-red);
+    cursor: pointer;
+}
+.delete-button:hover{
+    color: var(--white);
+    background-color: var(--main-red);
+    transform: translateY(-0.125em);
+}
