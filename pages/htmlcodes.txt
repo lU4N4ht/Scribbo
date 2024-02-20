@@ -1,0 +1,53 @@
+HOME PAGE SCRIPT
+
+<main>
+        <div class="head">
+            <div class="welcome">
+                <span class="message">Bem-vindo,</span>
+                <span class="name">Vitor</span>
+            </div>
+            <div class="input-info">
+                <img src="../img/lupa.png" alt="pesquisar">
+                <input type="text" placeholder="Pesquisar...">
+            </div>
+        </div>
+    </main>
+
+
+PROFILE PAGE
+
+<main>
+        <div class="head">
+            <div class="profile-side">
+                <img src="../img/joao.png" alt="joao" class="profile-photo">
+                <span class="profile-name">Vitor de Jesus Amém</span>
+            </div>
+
+            <div class="button-side">
+                <button class="update-button" id="update-button">Atualizar</button>
+                <button class="remove-button" id="remove-button">Remover</button>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="profile-box">
+                <span class="profile-title">Nome de Usuario</span>
+                <input type="text">
+            </div>
+
+            <div class="profile-box">
+                <span class="profile-title">Email</span>
+                <input type="text">
+            </div>
+
+            <div class="profile-box">
+                <span class="profile-title">Senha</span>
+                <input type="text">
+            </div>
+            <button class="apply-button">Aplicar Alterações</button>
+        </div>
+
+        <div class="button-area">
+            <button class="delete-button">Deletar Conta</button>
+        </div>
+    </main>

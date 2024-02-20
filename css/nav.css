@@ -1,0 +1,19 @@
+nav{
+    height: 100%;
+    width: 10%;
+    padding-top: 64px;
+    display: grid;
+    justify-content: center;
+}
+nav .profile{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-image: url(../img/joao.png);
+}
+.icon{
+    cursor: pointer;
+}
+.profile{
+    cursor: pointer;
+}
