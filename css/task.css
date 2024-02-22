@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    display: flex;
+}
+
+.minhas-tarefas{
+    color: var(--main-green);
+    font-family: var(--title-font);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container1{
+    width: 350px;
+    height: 552px;
+    background-color: var(--bg-color);
+    border-radius: 25px;
+    margin-top: 70px;
+}
+
+.date{
+    color: white; 
+    font-family: var(--title-font);
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    padding: 20px;
+}
+.tarefas{
+    display: flex;
+    width: 326px;
+    height: 76px;
+    background-color: var(--task-green);
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+
+.line{
+    place-self: center;
+    margin-left: 10px;
+    width: 2px;
+    height: 38px; 
+    background-color: var(--main-green);
+}
+
+p{
+    color: white; 
+    font-family: var(--body-font);
+    font-size: 15px;
+    font-weight: 200;
+    display: flex;
+    place-self: center;
+    margin-left: 10px;
+}
+
+.verificacao{
+    display: flex;
+    place-self: center;
+    margin-left: 160px;
+}
+
+.adc-tarefas{   
+    width: 326px;
+    height: 76px;
+    background-color: var(--task-green);
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.more{
+    display: flex;
+    place-self: center;
+    margin-left: 10px;
+
+}
