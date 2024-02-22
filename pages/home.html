@@ -6,11 +6,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/root.css">
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/home.css">
     <script src="../js/nav.js" defer></script>
     <title>Home</title>
 </head>
@@ -27,7 +30,48 @@
         <img src="../img/logout.png" alt="sair" class="icon" id="logout-button">
     </nav>
     <main>
-      
+      <section class="header">
+          <div class="text">
+              <h1>Bem-vindo,</h1>
+              <h2>Vitor</h2>
+          </div>
+            <div class="input-info">
+                <img src="../img/lupa.png" alt="lupa">
+                <input type="text" placeholder="Search...">
+            </div>
+      </section>
+      <section class="main">
+          <div class="grid">
+              <div class="message">
+                <p>Descubra uma vida mais organizada pela atividade do nosso dashboard</p>
+              </div>
+              <div class="tasks">
+                  <h1>Fev</h1>
+                  <div class="title-tasks">
+                      <div class="title">
+                      <p>Minhas Tarefas</p>
+                      <h4>Tarefas Pendentes: </h4>
+                    </div>
+                      <div class="card-container">
+                          <div class="card">
+                              <h1 class="task-name" id="name">
+                                  Tomar Banho
+                              </h1>
+                          </div>
+                          <div class="card">
+                            <h1 class="task-name" id="name">
+                               Dormir
+                            </h1>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="grid">
+            <div class="calender"></div>
+            <div class="image"></div>
+            </div>
+      </section>
     </main>
 </body>
 </html>

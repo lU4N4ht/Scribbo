@@ -9,7 +9,10 @@ nav .profile{
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    background-image: url(../img/joao.png);
+    background-image: url(https://media.licdn.com/dms/image/D4D03AQE1v3u5Jpu8KA/profile-displayphoto-shrink_800_800/0/1683220875919?e=2147483647&v=beta&t=CWDaOycJA0ZA9h9xUhQW3jkX0V8TxmyTw6-I_56niFo);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .icon{
     cursor: pointer;

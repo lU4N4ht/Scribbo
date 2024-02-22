@@ -3,6 +3,8 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
+    font-family: var(--body-font);
+    font-weight: 100;
 }
 main{
     height: 94%;
@@ -12,24 +14,19 @@ main{
     padding: 50px;
     overflow: hidden;
     display: grid;
-    justify-content: space-between;
 }
-.head{
+.header{
     display: flex;
     justify-content: space-between;
 }
-.welcome{
-    display: grid;
+
+.text h1{
+    font-size: 37px;
 }
-.message{
-    font-family: var(--body-font);
-    font-size: 40px;
-}
-.name{
+.text h2{
+    color: var(--main-green);
     font-family: var(--title-font);
-    font-weight: bold;
     font-size: 36px;
-    color: #4DB265;
 }
 .input-info{
     height: 50px;
@@ -37,10 +34,9 @@ main{
     padding-left: 25px;
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    background-color: var(--white);
     border: 2px solid #000000;
-    border-radius: 25px;
-}
+    border-radius: 25px;}
 input{
     height: 50px;
     width: 98%;
@@ -56,4 +52,101 @@ input::placeholder{
     font-size: 20px;
     color: var(--placeholder-color);
     padding-top: 5px;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.message{
+    background-image: url(../img/home-img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 719px;
+    height: 315px;
+    border-radius: 25px;
+}
+.message p{
+    width: 391px;
+    font-size: 24px;
+    padding-block: 56px;
+    padding-inline: 26px;
+    font-weight: 500;
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 315px;
+    width: 413px;
+    background-color: var(--bg-color);
+    border-radius: 25px;
+    padding-inline: 32px;
+    padding-top: 10px;
+}
+.tasks h1{
+    display: flex;
+    justify-content: flex-end;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 20px;
+}
+.title-tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title-tasks p{
+    color: var(--main-green);
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 20px;
+}
+.title-tasks h4{
+    color: var(--white);
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    background-color: var(--main-green);
+    height: 82px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    padding-left: 28px;
+    align-items: center;
+}
+.card h1{
+    color: var(--bg-color);
+       font-family: var(--title-font);
+    font-weight: 600;
+}
+.calender{
+    width: 719px;
+    height: 315px;
+    border-radius: 25px;
+    background-color: var(--bg-color);
+}
+.image{
+    height: 315px;
+    width: 413px;
+    border-radius: 25px;
+    background-image: url(../img/home-img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
