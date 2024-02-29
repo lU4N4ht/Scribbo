@@ -1,0 +1,94 @@
+.calender{
+    display: flex;
+    justify-content: center;
+}
+.conteudo{
+    position: absolute;
+    width: 500px;
+    height: 20px;
+}
+.container-data h2{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-family: var(--title-font);
+    color: var(--main-green);
+    padding-top: 10px;
+}
+.btn-ant,.btn-pro{
+    position: absolute;
+    top: 50%;
+    height: 32px;
+    width: 32px;
+    margin-top: 5px;
+    border: 2px solid var(--main-green);
+    border-radius: 50%;
+    color: var(--main-green);
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: var(--title-font);
+}
+.btn-ant{
+    left: 80px;
+}
+.btn-pro{
+    right: 80px;
+}
+.btn-ant:hover,.btn-pro:hover{
+    background-color: var(--main-green);
+    color: var(--bg-color) ;
+}
+.conteudo table{
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.conteudo thead{
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.conteudo td{
+    background-color: var(--main-green);
+    height: 31px;
+    text-align: center;
+    width: 591px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.conteudo td:first-child{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.conteudo td:last-child{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.dias tr td{
+    background-color: transparent;
+    font-weight: 400;
+}
+.dias tr td:hover{
+    background-color: var(--main-green);
+    border-radius: 0px;
+}
+.conteudo table .dia-atual{
+    background-color: var(--main-green);
+    color: var(--bg-color);
+    font-weight: 600;
+}
+.conteudo .mes-anterior, .conteudo .proximo-mes{
+    color: #d4d3d381;
+}
+.conteudo .mes-anterior:hover, .conteudo .proximo-mes:hover{
+    background-color: #6d6d6dda;
+}
+.ano{
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+}

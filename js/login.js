@@ -22,8 +22,6 @@ async function loginValidation() {
 
     const usuarios = await getUsers();
 
-    if (!usuarios) return;
-
     usuarios.forEach(function (user) {
         if(user.email === inputEmail && user.senha === inputPassword) {
             userStatus = true;

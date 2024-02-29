@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="../css/root.css">
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/calender.css">
     <link rel="stylesheet" href="../css/home.css">
+    <!-- <script src="../js/home.js" defer></script> -->
+    <script src="../js/calender.js" defer></script>
     <script src="../js/nav.js" defer></script>
     <title>Scribbo | Home</title>
 </head>
@@ -53,23 +56,85 @@
                       <p>Minhas Tarefas</p>
                       <h4>Tarefas Pendentes: </h4>
                     </div>
-                      <div class="card-container">
-                          <div class="card">
-                              <h1 class="task-name" id="name">
-                                  Tomar Banho
-                              </h1>
-                          </div>
-                          <div class="card">
-                            <h1 class="task-name" id="name">
-                               Dormir
-                            </h1>
-                        </div>
-                      </div>
+                      <div class="card-container"></div>
                   </div>
               </div>
           </div>
           <div class="grid">
-            <div class="calender"></div>
+            <div class="calender">
+                <div class="conteudo">
+                    <div class="container-data">
+                        <h2 id="mes"></h2>
+                        <a class="btn-ant" id="btn_prev"> < </a>
+                        <a class="btn-pro" id="btn_next"> > </a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Dom</td>
+                                <td>Seg</td>
+                                <td>Ter</td>
+                                <td>Qua</td>
+                                <td>Qui</td>
+                                <td>Sex</td>
+                                <td>Sab</td>
+                            </tr>
+                        </thead>
+                        <tbody id="dias" class="dias">
+                            <tr>
+                                <td class="mes-anterior">1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td class="dia-atual">2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td class="proximo-mes">7</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <footer>
+                        <h2 class="ano" id="ano"></h2>
+                    </footer>
+                </div>
+
+            </div>
             <div class="image"></div>
             </div>
       </section>

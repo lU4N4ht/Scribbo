@@ -10,10 +10,10 @@ async function userSignup() {
 
     if (inputName === '' || inputEmail === '' || inputPassword === '' || inputConfirm === '') {
         alert('ERRO: Demonstrar todos os valores')
-
+        return null
     } if (inputPassword != inputConfirm) {
         alert("Preenche direito")
-
+        return null
     } else {
 
         try {

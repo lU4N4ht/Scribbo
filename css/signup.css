@@ -57,7 +57,7 @@ main{
     display: grid;
     gap: 30px;
 }
-input{
+.input-container input{
     border-radius: 25px;
     height: 50px;
     width: 400px;
@@ -76,4 +76,45 @@ input{
     font-size: 40px;
     color: var(--main-green);
     font-weight: 600;
+}
+.checkbox {
+    position: relative;
+    user-select:none;
+    padding-left: 14px;
+}
+.checkbox input {
+    visibility: hidden;
+}
+.checkbox label {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: var(--body-font);
+    cursor: pointer;
+}
+.checkbox label::before {
+    position: absolute;
+    left: 0;
+    border: 2px solid var(--main-green);
+    content: "";
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    transition: all .2s ease-in-out;
+}
+.checkbox input:checked ~ label::before{
+    transform: rotate(40deg);
+    border-left-color:transparent;
+    border-top-color:transparent;
+    border-radius: 0;
+    width: 10px;
+    height: 20px;
+    left: 10px;
+    top: calc(64% - 1px);
+}
+.button-container{
+    display: flex;
+    justify-content: center;
 }
