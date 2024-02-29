@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/jpg" href="../img/logosimples.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <script src="../js/profile.js"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <nav>
+        <img src="../img/logosimples.png" alt="logo" height="55" width="55">
+
+        <img src="../img/home.png" alt="pagina inical" class="icon" id="home-button">
+
+        <img src="../img/task.png" alt="tarefas" class="icon" id="task-button">
+
+        <div class="profile" class="icon" id="profile-button"></div>
+        
+        <img src="../img/logout.png" alt="sair" class="icon" id="logout-button">
+    </nav>
+    <main>
+        <div class="head">
+            <div class="profile-side">
+                <img src="../img/joao.png" alt="joao" class="profile-photo">
+                <span class="profile-name" id="profile-name"></span>
+            </div>
+
+            <div class="button-side">
+                <button class="update-button">Atualizar</button>
+                <button class="remove-button" id="remove-button">Remover</button>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="profile-box">
+                <span class="profile-title">Nome de Usuario</span>
+                <input type="text" id="username">
+            </div>
+
+            <div class="profile-box">
+                <span class="profile-title">Email</span>
+                <input type="text" id="email">
+            </div>
+
+            <div class="profile-box">
+                <span class="profile-title">Senha</span>
+                <input type="text" id="password">
+            </div>
+            <button class="apply-button">Aplicar Alterações</button>
+        </div>
+
+        <div class="button-area">
+            <button class="delete-button">Deletar Conta</button>
+        </div>
+    </main>
+</body>
+</html>

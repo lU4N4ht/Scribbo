@@ -22,12 +22,15 @@ async function loginValidation() {
 
     const usuarios = await getUsers();
 
+    console.log(usuarios)
     if (!usuarios) return;
 
     usuarios.forEach(function (user) {
         if(user.email === inputEmail && user.senha === inputPassword) {
             userStatus = true;
-            window.location.href = './pages/home.html';
+            const id = user.id
+            localStorage.setItem('id', id)
+            window.location.href = '../pages/home.html';
             return;
         } 
     });
