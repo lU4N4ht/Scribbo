@@ -50,35 +50,36 @@ body{
     background-color: var(--main-green);
 }
 
-p{
-    color: white; 
+button{
+    display: flex;
+    background-color: var(--dark-greeen);
+    color: white;
     font-family: var(--body-font);
-    font-size: 15px;
-    font-weight: 200;
-    display: flex;
-    place-self: center;
-    margin-left: 10px;
+    border: 22px;
 }
 
-.verificacao{
+.popup {
     display: flex;
-    place-self: center;
-    margin-left: 160px;
+    z-index: 9999;
 }
 
-.adc-tarefas{   
+.popup-content{
+    display: flex;
     width: 326px;
-    height: 76px;
+    height: auto;
     background-color: var(--task-green);
     border-radius: 10px;
     margin-left: 12px;
-    margin-top: 20px;
-    display: flex;
+    margin-bottom: 20px;
+    font-family: var(--body-font);
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.more{
-    display: flex;
-    place-self: center;
-    margin-left: 10px;
-
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
 }

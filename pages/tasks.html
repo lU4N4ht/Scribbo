@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/task.css">
     <script src="../js/nav.js" defer></script>
     <title>Scribbo | Tarefas </title>
+   
 </head>
 <body>
     <nav>
@@ -34,22 +35,21 @@
 
         <div class="container1">
             <div class="date">Ter 06-02-24 </div>
-            <div class="tarefas">
                 <div class="line"></div>
-                <p>Limpar a Casa</p>
-                <img class="verificacao" src="../img/verifica.png" alt="">
+                <button  id="adc-tarefas" onclick="toggLePopup()">
+                    <div id="myPopup" class="popup">
+                        <div class="popup-content">
+                            <span class="close" onclick="toggLePopup()">&times;
+                            </span>
+                            <h2>Nova tarefa</h2>
+                            <input type="text" placeholder="Nome da Tarefa" id="nome-tarefa">
+                            <input type="checkbox" class="checkbox">
+                        </div>
+                    </div>
+                </button>
             </div>
-
-            <div class="adc-tarefas">
-                <p class="more">
-                    +
-                </p>
-                <p>Adicionar tarefa</p>
-            </div>
-        </div>
 
 
 
     </main>
 </body>
-</html>
