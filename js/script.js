@@ -8,5 +8,5 @@ const port = process.env.PORT || 5080;
 server.use(middlewares);
 server.use(router);
 server.listen(port, () => {
-    console.log('JSON Server is running in http://localhost:${port}/contatos');
+    console.log(`JSON Server is running in http://localhost:${port}/contatos`);
 });
