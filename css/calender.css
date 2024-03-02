@@ -80,6 +80,7 @@
     background-color: var(--main-green);
     color: var(--bg-color);
     font-weight: 600;
+    border-radius: 0%;
 }
 .conteudo .mes-anterior, .conteudo .proximo-mes{
     color: #d4d3d381;
