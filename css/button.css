@@ -26,6 +26,9 @@
     font-weight: 600;
     color: var(--white);
     border-radius: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .remove-button{
     height: 40px;
@@ -66,4 +69,7 @@
     color: var(--white);
     background-color: var(--main-red);
     transform: translateY(-0.125em);
+}
+.update-input{
+    display: none;
 }
