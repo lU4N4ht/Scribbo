@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/jpg" href="../img/logosimples.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/root.css">
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/profile.css">
     <link rel="stylesheet" href="../css/task.css">
+    <link rel="stylesheet" href="../css/popup.css">
     <script src="../js/nav.js" defer></script>
+    <script src="../js/popup.js" defer></script>
     <title>Scribbo | Tarefas </title>
-   
+
 </head>
+
 <body>
     <nav>
         <img src="../img/logosimples.png" alt="logo" height="55" width="55">
@@ -34,22 +40,37 @@
         <div class="minhas-tarefas">Minhas Tarefas</div>
 
         <div class="container1">
-            <div class="date">Ter 06-02-24 </div>
-                <div class="line"></div>
-                <button  id="adc-tarefas" onclick="toggLePopup()">
-                    <div id="myPopup" class="popup">
-                        <div class="popup-content">
-                            <span class="close" onclick="toggLePopup()">&times;
-                            </span>
-                            <h2>Nova tarefa</h2>
-                            <input type="text" placeholder="Nome da Tarefa" id="nome-tarefa">
-                            <input type="checkbox" class="checkbox">
-                        </div>
+            <div class="date-task">
+                <div class="date">Ter 06-02-24 </div>
+                <div class="task-container">
+                    <div class="line"></div>
+                    <div class="card">
                     </div>
-                </button>
+                </div>
             </div>
+            <button class="add-task" id="addButton">
+                <p>+</p>
+                <p>Adicionar tarefa</p>
+            </button>
+        </div>
+    </div>
 
-
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h1>Vamos adicionar uma nova Tarefa! :)</h1>
+            <div class="popup-info">
+                <p class="popup-title">Nome da tarefa: </p>
+                <input type="text">
+                <p class="popup-title">Data de Conclusão</p>
+                <input type="date" class="input-date">
+            </div>
+            <diiv class="btn-area">
+                <button id="closePopup">
+                    CONCLUIR
+                </button>
+            </diiv>
+        </div>
+    </div>
 
     </main>
 </body>

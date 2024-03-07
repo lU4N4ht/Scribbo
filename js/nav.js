@@ -17,3 +17,7 @@ homeButton.addEventListener('click', () => {
 taskButton.addEventListener('click', () => {
     window.location.href = '../pages/tasks.html'
 })
+
+logoutButton.addEventListener('click', () => {
+    window.location.href = '/index.html'
+})

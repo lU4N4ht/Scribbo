@@ -22,6 +22,10 @@ body{
     background-color: var(--bg-color);
     border-radius: 25px;
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 11px;
 }
 
 .date{
@@ -44,42 +48,50 @@ body{
 
 .line{
     place-self: center;
-    margin-left: 10px;
+    margin-left: 7px;
     width: 2px;
     height: 38px; 
     background-color: var(--main-green);
 }
 
-button{
+.task-container{
     display: flex;
-    background-color: var(--dark-greeen);
-    color: white;
-    font-family: var(--body-font);
-    border: 22px;
+    gap: 6px;
 }
 
-.popup {
-    display: flex;
-    z-index: 9999;
-}
-
-.popup-content{
-    display: flex;
+.card{
     width: 326px;
-    height: auto;
+    height: 76px;
     background-color: var(--task-green);
     border-radius: 10px;
-    margin-left: 12px;
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
     font-family: var(--body-font);
-    padding: 20px;
-    border-radius: 20px;
 }
 
-.close{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
+.add-task{
+    margin-left: 12px;
+    display: flex;
+    justify-content: baseline;
+    padding-left: 10px;
+    gap: 25px;
+    width: 327px;
+    height: 50px;
+    background-color: var(--task-green);
+    align-items: center;
+    border: none;
+    border-radius: 10px;
     cursor: pointer;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);  
+}
+
+.add-task p {
+    color: var(--white);
+    font-family: var(--body-font);
+    font-size: 15px;
+}
+
+.add-task:hover{
+    background-color: var(--button-task);
+    transform: translateY(-0.125em);
 }
