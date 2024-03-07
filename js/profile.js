@@ -28,3 +28,47 @@ window.onload = async function loadProfile(){
 
 
 }
+
+const applyButton = document.getElementById('apply-button')
+
+async function updateData(){
+
+    const inputName = document.getElementById('username').value
+    const inputEmail = document.getElementById('email').value
+    const inputPassword = document.getElementById('password').value
+
+    if(inputName === '' || inputEmail === '' || inputPassword === ''){
+        alert('ERRO: Não é possivel remover dados obrigatórios')
+    } else {
+
+        try {
+            
+            const _data = {
+                nome: inputName,
+                email: inputEmail,
+                senha: inputPassword
+            }
+
+            const _url = `http://localhost:5080/usuario/${userId}`
+
+            const _options = {
+                method: 'put',
+                body: JSON.stringify(_data),
+                headers: { "Content-type": "application/json; charset=UTF-8" },
+                mode: 'cors',
+                redirect: 'follow',
+                cache: 'default'
+            }
+
+            fetch(_url, _options)
+            window.relo
+            alert('Dados atualizados com sucesso !');
+
+        } catch (error) {
+            
+            alert('Erro ao atualizar os dados')
+        }
+    }
+}
+
+applyButton.addEventListener('click', updateData)
