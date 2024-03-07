@@ -16,15 +16,15 @@ window.onload = async function loadProfile(){
 
 
     const profileUsername = document.getElementById('username')
-    profileUsername.textContent = user.nome
+    profileUsername.value = user.nome
 
 
     const profileEmail = document.getElementById('email')
-    profileEmail.textContent = user.email
+    profileEmail.value = user.email
 
 
     const profilePassword = document.getElementById('password')
-    profilePassword.textContent = user.senha
+    profilePassword.value = user.senha
 
 
 }
