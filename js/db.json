@@ -1,76 +1,82 @@
 {
-    "usuario": [
-      {
-        "id": 1,
-        "nome": "João da Silva",
-        "email": "joao@silva.com",
-        "senha": "joao",
-        "premium": 1,
-        "foto_perfil": ""
-      },
-      {
-        "id": 2,
-        "nome": "Maria Salvagni",
-        "email": "maria@salvagni.com",
-        "senha": "maria",
-        "premium": 0,
-        "foto_perfil": ""
-      },
-      {
-        "id": 3,
-        "nome": "Gabriel Pereira",
-        "email": "gabriel@pereira.com",
-        "senha": "gabriel",
-        "premium": 0,
-        "foto_perfil": ""
-      },
-      {
-        "id": 4,
-        "nome": "Luana",
-        "email": "lua.mag@gmail.com",
-        "senha": "111",
-        "premium": 1,
-        "foto_perfil": ""
-      },
-      {
-        "id": 5,
-        "nome": "Kainan",
-        "email": "kai.braga@gmail.com",
-        "senha": "123",
-        "premium": 1,
-        "foto_perfil": ""
-      }
-    ],
-    "tarefas": [
-      {
-        "id": 1,
-        "descrição": "Limpar a Casa",
-        "dataConclusão": "31/01/2024",
-        "idUsuario": 1
-      },
-      {
-        "id": 2,
-        "descrição": "Aprender inglês",
-        "dataConclusão": "30/10/2024",
-        "idUsuario": 1
-      },
-      {
-        "id": 3,
-        "descrição": "Novo emprego",
-        "dataConclusão": "10/02/2024",
-        "idUsuario": 3
-      },
-      {
-        "id": 4,
-        "descrição": "Viajar",
-        "dataConclusão": "05/03/2024",
-        "idUsuario": 2
-      },
-      {
-        "id": 5,
-        "descrição": "Conhecer mais pessoas",
-        "dataConclusão": "20/05/2024",
-        "idUsuario": 3
-      }
-    ]
-  }
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "João da Silva",
+      "email": "joao@silva.com",
+      "senha": "joao",
+      "premium": 1,
+      "foto_perfil": ""
+    },
+    {
+      "id": 2,
+      "nome": "Maria Salvagni",
+      "email": "maria@salvagni.com",
+      "senha": "maria",
+      "premium": 0,
+      "foto_perfil": ""
+    },
+    {
+      "id": 3,
+      "nome": "Gabriel Pereira",
+      "email": "gabriel@pereira.com",
+      "senha": "gabriel",
+      "premium": 0,
+      "foto_perfil": ""
+    },
+    {
+      "id": 4,
+      "nome": "Luana",
+      "email": "lua.mag@gmail.com",
+      "senha": "111",
+      "premium": 1,
+      "foto_perfil": ""
+    },
+    {
+      "id": 5,
+      "nome": "Kainan",
+      "email": "kai.braga@gmail.com",
+      "senha": "123",
+      "premium": 1,
+      "foto_perfil": ""
+    },
+    {
+      "id": 6,
+      "nome": "tamires",
+      "email": "bangtan20042014@gmail.com",
+      "senha": "123"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "descrição": "Limpar a Casa",
+      "dataConclusão": "31/01/2024",
+      "idUsuario": 1
+    },
+    {
+      "id": 2,
+      "descrição": "Aprender inglês",
+      "dataConclusão": "30/10/2024",
+      "idUsuario": 1
+    },
+    {
+      "id": 3,
+      "descrição": "Novo emprego",
+      "dataConclusão": "10/02/2024",
+      "idUsuario": 3
+    },
+    {
+      "id": 4,
+      "descrição": "Viajar",
+      "dataConclusão": "05/03/2024",
+      "idUsuario": 2
+    },
+    {
+      "id": 5,
+      "descrição": "Conhecer mais pessoas",
+      "dataConclusão": "20/05/2024",
+      "idUsuario": 3
+    }
+  ]
+}
