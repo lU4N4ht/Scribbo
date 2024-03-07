@@ -64,3 +64,11 @@ input{
     justify-content: end;
     padding-top: 120px;
 }
+.update-button button{
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    font-family: var(--title-font);
+    font-size: 15px;
+    font-weight: 600;
+}
