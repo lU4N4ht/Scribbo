@@ -7,10 +7,10 @@
       "senha": "joao"
     },
     {
-      "id": 2,
       "nome": "Maria Salvagni",
       "email": "maria@salvagni.com",
-      "senha": "maria"
+      "senha": "maria",
+      "id": 2
     },
     {
       "id": 3,
@@ -28,6 +28,12 @@
       "id": 5,
       "nome": "Kainan",
       "email": "kai.braga@gmail.com",
+      "senha": "123"
+    },
+    {
+      "id": 6,
+      "nome": "Lucia",
+      "email": "lucia@lucia",
       "senha": "123"
     }
   ],

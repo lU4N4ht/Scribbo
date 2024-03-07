@@ -1,4 +1,4 @@
-body{
+body {
     background-color: var(--bg-color);
     height: 100vh;
     display: flex;
@@ -6,7 +6,8 @@ body{
     font-family: var(--body-font);
     font-weight: 100;
 }
-main{
+
+main {
     height: 94%;
     width: 87%;
     background-color: var(--white);
@@ -15,21 +16,24 @@ main{
     overflow: hidden;
     display: grid;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
 }
 
-.text h1{
+.text h1 {
     font-size: 37px;
 }
-.text h2{
+
+.text h2 {
     color: var(--main-green);
     font-family: var(--title-font);
     font-size: 36px;
 }
-.input-info{
+
+.input-info {
     height: 50px;
     width: 69%;
     padding-left: 25px;
@@ -37,34 +41,40 @@ main{
     align-items: center;
     background-color: var(--white);
     border: 2px solid #000000;
-    border-radius: 25px;}
-input{
+    border-radius: 25px;
+}
+
+input {
     height: 50px;
     width: 98%;
     padding-left: 25px;
     outline: 0;
     background: none;
-   font-size: 20px;
-   padding-top: 5px;
-   border: none;
+    font-size: 20px;
+    padding-top: 5px;
+    border: none;
 }
-input::placeholder{
+
+input::placeholder {
     font-family: var(--body-font);
     font-size: 20px;
     color: var(--placeholder-color);
     padding-top: 5px;
 }
-.main{
-    display:flex;
+
+.main {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 50px;
 }
-.grid{
+
+.grid {
     display: flex;
     justify-content: space-evenly;
 }
-.message{
+
+.message {
     background-image: url(../img/home-img1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -73,14 +83,16 @@ input::placeholder{
     height: 315px;
     border-radius: 25px;
 }
-.message p{
+
+.message p {
     width: 391px;
     font-size: 24px;
     padding-block: 56px;
     padding-inline: 26px;
     font-weight: 500;
 }
-.tasks{
+
+.tasks {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -91,37 +103,43 @@ input::placeholder{
     padding-inline: 32px;
     padding-top: 10px;
 }
-.tasks h1{
+
+.tasks h1 {
     display: flex;
     justify-content: flex-end;
     color: var(--white);
     font-weight: 300;
     font-size: 20px;
 }
-.title-tasks{
+
+.title-tasks {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.title-tasks p{
+
+.title-tasks p {
     color: var(--main-green);
     font-family: var(--title-font);
     font-weight: 600;
     font-size: 20px;
 }
-.title-tasks h4{
+
+.title-tasks h4 {
     color: var(--white);
     font-family: var(--title-font);
     font-weight: 600;
     font-size: 20px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
-.card{
+
+.card {
     background-color: var(--main-green);
     height: 82px;
     border-bottom-left-radius: 20px;
@@ -131,18 +149,21 @@ input::placeholder{
     padding-left: 28px;
     align-items: center;
 }
-.card h1{
+
+.task-name {
     color: var(--bg-color);
-       font-family: var(--title-font);
+    font-family: var(--title-font);
     font-weight: 600;
 }
-.calender{
+
+.calender {
     width: 719px;
     height: 315px;
     border-radius: 25px;
     background-color: var(--bg-color);
 }
-.image{
+
+.image {
     height: 315px;
     width: 413px;
     border-radius: 25px;
