@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../css/profile.css">
     <script src="../js/nav.js" defer></script>
     <script src="../js/profile.js" defer></script>
+    <script src="../js/changeprofile.js" defer></script>
     <title>Profile</title>
 </head>
 <body>
@@ -24,22 +25,22 @@
 
         <img src="../img/task.png" alt="tarefas" class="icon" id="task-button">
 
-        <div class="profile" class="icon" id="profile-button"></div>
+        <img class="profile" class="icon" id="profile-button">
 
         <img src="../img/logout.png" alt="sair" class="icon" id="logout-button">
     </nav>
     <main>
         <div class="head">
             <div class="profile-side">
-                <img src="../img/joao.png" alt="joao" class="profile-photo">
+                <img class="profile-photo" id="profile-photo" src="">
                 <h1 class="profile-name" id="profile-name">Luana Maranhão</h1>
             </div>
-
+        
             <div class="button-side">
-                <label for="update-photo" class="update-button">
-                    <input type="file" accept=".jpg, .gif, .png" id="update-photo" class="update-input">
-                    <span>Atualizar</span>
-                </label>
+
+                <label for="update-photo" class="update-button">Atualizar Foto</label>
+                <input type="file" accept=".jpg, .gif, .png" id="update-photo" class="update-input" style="display:none;">
+        
                 <button class="remove-button" id="remove-button">Remover</button>
             </div>
         </div>
