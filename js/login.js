@@ -25,6 +25,7 @@ async function loginValidation() {
     usuarios.forEach(function (user) {
         if(user.email === inputEmail && user.senha === inputPassword) {
             userStatus = true;
+            localStorage.setItem('userId', user.id)
             window.location.href = './pages/home.html';
             return;
         } 
