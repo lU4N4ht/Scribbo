@@ -1,12 +1,10 @@
 {
   "usuario": [
     {
-      "id": 1,
-      "nome": "João da Silva",
-      "email": "joao@silva.com",
-      "senha": "joao",
-      "premium": 1,
-      "foto_perfil": ""
+      "nome": "Oliver",
+      "email": "oliver@gmail.com",
+      "senha": "456",
+      "id": 1
     },
     {
       "id": 2,

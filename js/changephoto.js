@@ -14,10 +14,8 @@ const carregarImagem = (e) => {
             imageNav.src = fileReader.result;
         };
         fileReader.readAsDataURL(file);
+        
     }
-
-    const imgUrl = URL.createObjectURL(file)
-            console.log(imgUrl)
 };
 
 

@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/popup.css">
     <script src="../js/nav.js" defer></script>
     <script src="../js/profile.js" defer></script>
+    <script src="../js/popup.js" defer></script>
 
     <title>Scribbo | Profile</title>
     <script src="../js/changeprofile.js" defer></script>
@@ -65,8 +67,22 @@
         </div>
 
         <div class="button-area">
-            <button class="delete-button">Deletar Conta</button>
+            <button class="delete-button" id="addButton">Deletar Conta</button>
         </div>
+
+    <div class="delete-popup" id="popup">
+        <div class="dltpopup-content">
+            <h1 class="dltpopup-title">Deseja deletar a conta?</h1>
+            <div class="dltpopup-text">
+                <p class="text">Por favor, pense com carinho</p>
+            <p class="text">Se deletar esta conta não poderá mais recupera-la. :(</p>
+            </div>
+            <div class="dltpopup-buttons">
+                <button id="closePopup" class="cancel-button">Cancelar</button>
+                <button id="delete-button" class="delete-button">Deletar</button>
+            </div>
+        </div>
+    </div>
     </main>
 </body>
 </html>

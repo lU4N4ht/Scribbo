@@ -70,6 +70,23 @@
     background-color: var(--main-red);
     transform: translateY(-0.125em);
 }
+.cancel-button{
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 24px;
+    color: var(--cancel-green);
+    font-family: var(--title-font);
+    font-weight: 600;
+    border: 3px solid var(--cancel-green);
+    cursor: pointer;
+}
+.cancel-button:hover{
+    color: var(--white);
+    background-color: var(--cancel-green);
+    transform: translateY(-0.125em);
+}
 .update-input{
     display: none;
 }

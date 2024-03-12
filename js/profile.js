@@ -72,4 +72,12 @@ async function updateData(){
     }
 }
 
+const deleteButton = document.getElementById('delete-button')
+
+async function deleteAccount(){
+    alert('ATÉ MAIS')
+    window.location.href = '../index.html'
+}
+
 applyButton.addEventListener('click', updateData)
+deleteButton.addEventListener('click', deleteAccount)
